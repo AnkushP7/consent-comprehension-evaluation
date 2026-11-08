@@ -1,0 +1,192 @@
+{
+  "model_type": "TF-IDF (1-2 grams) + LogisticRegression (balanced)",
+  "dataset_path": "C:\\Users\\hp\\OneDrive\\Desktop\\consent_comprehension_evaluation_complete\\consent_comprehension_evaluation\\data\\annotated_consent_sentences.csv",
+  "rows_total": 220,
+  "rows_train": 180,
+  "rows_test": 40,
+  "label_counts": {
+    "clear": 140,
+    "needs_review": 80
+  },
+  "split_method": "GroupShuffleSplit by document_id (19 documents)",
+  "accuracy": 1.0,
+  "macro_f1": 1.0,
+  "macro_precision": 1.0,
+  "macro_recall": 1.0,
+  "classification_report": {
+    "clear": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 31.0
+    },
+    "needs_review": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 9.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 40.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 40.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      31,
+      0
+    ],
+    [
+      0,
+      9
+    ]
+  ],
+  "classes": [
+    "clear",
+    "needs_review"
+  ],
+  "top_features": {
+    "needs_review": [
+      {
+        "feature": "all",
+        "weight": 0.6969
+      },
+      {
+        "feature": "subjects",
+        "weight": 0.5087
+      },
+      {
+        "feature": "efficacy",
+        "weight": 0.4911
+      },
+      {
+        "feature": "and",
+        "weight": 0.4835
+      },
+      {
+        "feature": "unpredictable",
+        "weight": 0.4821
+      },
+      {
+        "feature": "hereby",
+        "weight": 0.4818
+      },
+      {
+        "feature": "complications",
+        "weight": 0.4726
+      },
+      {
+        "feature": "from",
+        "weight": 0.4699
+      },
+      {
+        "feature": "agrees",
+        "weight": 0.4553
+      },
+      {
+        "feature": "agrees to",
+        "weight": 0.4553
+      },
+      {
+        "feature": "therapeutic",
+        "weight": 0.4552
+      },
+      {
+        "feature": "uncertain",
+        "weight": 0.4242
+      },
+      {
+        "feature": "remain",
+        "weight": 0.4214
+      },
+      {
+        "feature": "sequelae",
+        "weight": 0.4106
+      },
+      {
+        "feature": "subjects must",
+        "weight": 0.4017
+      }
+    ],
+    "clear": [
+      {
+        "feature": "your",
+        "weight": 2.0034
+      },
+      {
+        "feature": "you",
+        "weight": 1.5826
+      },
+      {
+        "feature": "study",
+        "weight": 0.8886
+      },
+      {
+        "feature": "blood",
+        "weight": 0.8047
+      },
+      {
+        "feature": "if",
+        "weight": 0.7645
+      },
+      {
+        "feature": "if you",
+        "weight": 0.6697
+      },
+      {
+        "feature": "will",
+        "weight": 0.6677
+      },
+      {
+        "feature": "doctor",
+        "weight": 0.6617
+      },
+      {
+        "feature": "can",
+        "weight": 0.5911
+      },
+      {
+        "feature": "for",
+        "weight": 0.5882
+      },
+      {
+        "feature": "you will",
+        "weight": 0.5866
+      },
+      {
+        "feature": "not",
+        "weight": 0.4794
+      },
+      {
+        "feature": "in",
+        "weight": 0.4747
+      },
+      {
+        "feature": "have",
+        "weight": 0.465
+      },
+      {
+        "feature": "this",
+        "weight": 0.4643
+      }
+    ]
+  },
+  "issue_metrics": {
+    "issue_classes": [
+      "complexity",
+      "jargon",
+      "legalistic",
+      "uncertainty"
+    ]
+  },
+  "note": "Supervised NLP classifier for informed consent sentence review. Evaluated with held-out group test split."
+}

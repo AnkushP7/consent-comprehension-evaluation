@@ -1,0 +1,221 @@
+document_id,sentence_id,text,label,issue_type,annotator_id,notes
+DOC-001,1,This study asks you to complete one short survey about your daily activities.,clear,plain_language,REV-01,Clear study purpose
+DOC-002,2,Taking part in this research is completely voluntary.,clear,plain_language,REV-01,Clear autonomy statement
+DOC-001,3,You can decide to stop answering questions at any time.,clear,plain_language,REV-01,Clear withdrawal rights
+DOC-001,4,There are no known physical risks from taking part in this survey.,clear,plain_language,REV-01,Clear risk statement
+DOC-001,5,The study team will keep your personal information private and secure.,clear,plain_language,REV-01,Clear privacy statement
+DOC-001,6,You will not receive any direct medical benefit from filling out this questionnaire.,clear,plain_language,REV-01,Clear direct benefit disclosure
+DOC-001,7,"If you have questions, you may call the clinic phone number listed below.",clear,plain_language,REV-01,Clear contact directions
+DOC-001,8,We will ask you about your eating habits and sleep patterns.,clear,plain_language,REV-01,Clear procedure description
+DOC-001,9,Completing the survey will take approximately twenty minutes of your time.,clear,plain_language,REV-01,Clear time commitment
+DOC-001,10,Your regular medical care will not change if you choose not to join.,clear,plain_language,REV-01,Clear voluntariness assurance
+DOC-002,1,The purpose of this study is to test whether a new pain medicine works better than standard care.,clear,plain_language,REV-01,Understandable purpose
+DOC-002,2,"If you join the study, you will receive the medicine through a small needle in your vein.",clear,plain_language,REV-01,Patient-friendly procedure
+DOC-002,3,You will come to the clinic once every two weeks for twelve weeks.,clear,plain_language,REV-01,Clear schedule
+DOC-002,4,"Common side effects include feeling sick to your stomach, dizziness, and mild headaches.",clear,plain_language,REV-01,Clear side effects
+DOC-002,5,"You may choose standard treatment, other pain medicines, or no treatment at all.",clear,plain_language,REV-01,Clear alternatives
+DOC-002,6,"The study medicine might improve your chronic back pain, but we cannot promise this outcome.",clear,plain_language,REV-01,Clear benefit disclosure
+DOC-002,7,A study nurse will check your vital signs and review your symptoms at every appointment.,clear,plain_language,REV-01,Clear monitoring
+DOC-002,8,"Possible adverse events include hemodynamic instability, severe myocardial ischemia, and other toxicities.",needs_review,jargon,REV-02,Heavy medical jargon
+DOC-002,9,The pharmacokinetics of the compound are not fully understood in geriatric cohorts.,needs_review,jargon,REV-02,Pharmacokinetics jargon and vague cohort
+DOC-002,10,Unforeseen sequelae and adverse reactions of uncertain incidence may develop during treatment.,needs_review,uncertainty,REV-02,Legalistic uncertainty
+DOC-003,1,The primary objective is determining maximum tolerated dose and dose-limiting toxicities of the agent.,needs_review,jargon,REV-02,Complex oncologic protocol jargon
+DOC-003,2,Subjects will undergo serial pharmacodynamic and pharmacokinetic biomarker evaluations.,needs_review,jargon,REV-02,Dense technical jargon
+DOC-003,3,Concomitant administration of CYP3A4 inducers or inhibitors is strictly contraindicated.,needs_review,jargon,REV-02,Enzyme and drug interaction jargon
+DOC-003,4,The investigational product demonstrates immunogenicity and may trigger severe anaphylactoid reactions.,needs_review,jargon,REV-02,Complex clinical pharmacology terms
+DOC-003,5,Patients with pre-existing coronary artery disease may experience acute myocardial infarction or ischemia.,needs_review,jargon,REV-02,Complex cardiovascular jargon
+DOC-003,6,There are unpredictable risks that are not fully understood and cannot be anticipated at this time.,needs_review,uncertainty,REV-02,Unclear risk disclosure
+DOC-003,7,"Because this is a phase one study, there is no guarantee that you will receive any therapeutic benefit.",needs_review,uncertainty,REV-02,Therapeutic benefit uncertainty without explanation
+DOC-003,8,"The incidence of severe neutropenia, thrombocytopenia, and systemic infection remains uncertain.",needs_review,uncertainty,REV-02,Dense jargon plus uncertainty
+DOC-003,9,"Prior to protocol enrollment, prospective subjects must undergo radiographic tumor burden staging.",needs_review,complexity,REV-02,Convoluted passive phrasing
+DOC-003,10,Taking part in this study is voluntary and you may choose to discontinue treatment at any time.,clear,plain_language,REV-01,Standard clear autonomy clause
+DOC-004,1,The undersigned participant hereby agrees to waive all claims against the clinical facility.,needs_review,legalistic,REV-03,Exculpatory liability waiver
+DOC-004,2,You agree to indemnify and hold harmless the study sponsor and all affiliated investigators.,needs_review,legalistic,REV-03,Indemnification clause
+DOC-004,3,The participant hereby acknowledges assumption of all inherent procedural and medical risks.,needs_review,legalistic,REV-03,Legalistic assumption of risk
+DOC-004,4,"Notwithstanding any other provision herein, the institution disclaims all warranties of efficacy.",needs_review,legalistic,REV-03,Legalistic disclaimer
+DOC-004,5,"By executing this instrument, you irrevocably release the hospital from liability for complications.",needs_review,legalistic,REV-03,Exculpatory release
+DOC-004,6,"In the event of medical injury, you must arbitrate all claims under binding procedural rules.",needs_review,legalistic,REV-03,Mandatory arbitration clause
+DOC-004,7,This document constitutes the entire integrated agreement between participant and institution.,needs_review,legalistic,REV-03,Contractual boilerplate
+DOC-004,8,"You will be assigned to a treatment group by chance, similar to flipping a coin.",clear,plain_language,REV-01,Clear randomization analogy
+DOC-004,9,We will test your blood to check if your kidneys and liver are working normally.,clear,plain_language,REV-01,Clear clinical test description
+DOC-004,10,You do not give up any of your legal rights by signing this consent form.,clear,plain_language,REV-01,Clear anti-waiver rights protection
+DOC-005,1,This trial evaluates a tiny heart stent designed to keep blocked arteries open.,clear,plain_language,REV-01,Clear device description
+DOC-005,2,"A cardiologist will place the stent using a thin, flexible tube inserted through your groin.",clear,plain_language,REV-01,Clear catheter explanation
+DOC-005,3,You will stay overnight in the recovery unit so our team can monitor your heart rhythm.,clear,plain_language,REV-01,Clear overnight stay plan
+DOC-005,4,You will take aspirin and another blood-thinning medicine every day for six months.,clear,plain_language,REV-01,Clear medication instructions
+DOC-005,5,"If you feel chest pressure or shortness of breath, call emergency services immediately.",clear,plain_language,REV-01,Clear emergency directions
+DOC-005,6,"Intracoronary deployment carries a risk of subacute thrombosis, dissection, and distal embolization.",needs_review,jargon,REV-02,Unexplained interventional jargon
+DOC-005,7,Long-term endotheliazation rates and late stent malapposition characteristics remain uncertain.,needs_review,jargon,REV-02,High-level bioengineering jargon
+DOC-005,8,The intervention may cause unforeseen catastrophic complications resulting in permanent disability or death.,needs_review,uncertainty,REV-02,Alarming uncertainty phrasing
+DOC-005,9,Participants must maintain absolute compliance with prophylactic dual antiplatelet pharmacotherapy.,needs_review,complexity,REV-02,Overly complex compliance wording
+DOC-005,10,You may refuse this procedure and discuss bypass surgery or medical management with your doctor.,clear,plain_language,REV-01,Clear alternative discussions
+DOC-006,1,We want to learn how a daily inhaler helps children with mild asthma breathe more easily.,clear,plain_language,REV-01,Plain language pediatric aim
+DOC-006,2,Your child will take two puffs of the study inhaler every morning before breakfast.,clear,plain_language,REV-01,Clear administration steps
+DOC-006,3,You will write down any coughing or wheezing episodes in a simple daily diary.,clear,plain_language,REV-01,Clear caregiver task
+DOC-006,4,"The inhaler may cause mild throat irritation, hoarseness, or a temporary cough.",clear,plain_language,REV-01,Clear side effects
+DOC-006,5,You may take your child out of the study at any time without losing any clinic benefits.,clear,plain_language,REV-01,Clear child assent/withdrawal
+DOC-006,6,Both you and your child can ask the doctor questions whenever you visit.,clear,plain_language,REV-01,Encouraging communication
+DOC-006,7,Your child will do a breathing test by blowing into a computer tube like blowing out birthday candles.,clear,plain_language,REV-01,Excellent kid-friendly analogy
+DOC-006,8,Standard rescue inhalers will always remain available for immediate relief of acute bronchospasm.,needs_review,jargon,REV-02,Bronchospasm jargon in pediatric consent
+DOC-006,9,Pulmonary spirometry metrics including FEV1 and forced vital capacity will be longitudinally recorded.,needs_review,complexity,REV-02,Technical spirometry jargon
+DOC-006,10,Participation will help doctors improve care for other children with breathing troubles.,clear,plain_language,REV-01,Clear societal benefit
+DOC-007,1,This study tests a new pill designed to help lower blood sugar levels in adults with type 2 diabetes.,clear,plain_language,REV-01,Clear metabolic goal
+DOC-007,2,You will check your blood sugar at home every morning using a finger-prick meter.,clear,plain_language,REV-01,Clear home monitoring
+DOC-007,3,You should carry fast-acting glucose tablets in case your blood sugar drops too low.,clear,plain_language,REV-01,Clear safety instructions
+DOC-007,4,"We will test your HbA1c, which shows your average blood sugar over the last three months.",clear,plain_language,REV-01,Clear explanation of HbA1c
+DOC-007,5,"If you decide to leave the study, your family doctor will continue managing your diabetes.",clear,plain_language,REV-01,Clear continuity of care
+DOC-007,6,The active metabolite undergoes hepatic glucuronidation and renal excretion with unpredictable clearance.,needs_review,jargon,REV-02,Pharmacokinetic clearance jargon
+DOC-007,7,Potential sequelae include euglycemic diabetic ketoacidosis and severe metabolic acidemia.,needs_review,jargon,REV-02,Severe unexplained medical conditions
+DOC-007,8,The study team does not know whether this intervention will prevent microvascular complications.,needs_review,uncertainty,REV-02,Uncertain outcome phrasing
+DOC-007,9,Subjects must maintain strict compliance with prescribed dietary and caloric restrictions.,needs_review,complexity,REV-02,Authoritarian compliance syntax
+DOC-007,10,You may withdraw your consent at any time without penalty or forfeiture of earned compensation.,clear,plain_language,REV-01,Clear compensation and withdrawal
+DOC-008,1,Your surgeon has recommended removing your inflamed gallbladder through keyhole surgery.,clear,plain_language,REV-01,Clear laparoscopic explanation
+DOC-008,2,The surgeon will make three to four tiny cuts in your abdomen to insert a camera and instruments.,clear,plain_language,REV-01,Clear incision description
+DOC-008,3,"You will be given general anesthesia, which means you will be completely asleep during the operation.",clear,plain_language,REV-01,Clear anesthesia description
+DOC-008,4,Most patients can return home the same day or the morning after the procedure.,clear,plain_language,REV-01,Clear discharge expectation
+DOC-008,5,You may choose not to have surgery and manage your symptoms with diet changes and antibiotics.,clear,plain_language,REV-01,Clear alternative options
+DOC-008,6,"Iatrogenic injury to the common bile duct, cystic artery hemorrhage, and bile peritonitis may occur.",needs_review,jargon,REV-02,Severe surgical jargon
+DOC-008,7,Unexpected conversion from laparoscopic approach to open laparotomy may become intraoperatively necessary.,needs_review,complexity,REV-02,Overly complex surgical wording
+DOC-008,8,There are unpredictable surgical risks and unknown outcomes that cannot be specifically enumerated.,needs_review,uncertainty,REV-02,Vague legalistic uncertainty
+DOC-008,9,The patient hereby consents to disposal of excised pathological tissue without further notice.,needs_review,legalistic,REV-03,Legalistic tissue disposal clause
+DOC-008,10,You have the right to ask questions about your operation before making your final decision.,clear,plain_language,REV-01,Clear rights explanation
+DOC-009,1,We are asking for your permission to store a small sample of your leftover blood for future research.,clear,plain_language,REV-01,Clear biobank request
+DOC-009,2,Your sample will be labeled with a code number instead of your name to protect your identity.,clear,plain_language,REV-01,Clear de-identification
+DOC-009,3,You can ask us to destroy your stored blood sample at any time in the future.,clear,plain_language,REV-01,Clear withdrawal from biobank
+DOC-009,4,Researchers around the world may study these samples to discover causes of inherited diseases.,clear,plain_language,REV-01,Clear broad future use
+DOC-009,5,You will not receive any financial payments if a commercial medicine is developed from this research.,clear,plain_language,REV-01,Clear commercialization disclosure
+DOC-009,6,Whole-exome and genomic sequencing may reveal incidental pathogenic germline variants of uncertain significance.,needs_review,jargon,REV-02,Dense genetic jargon
+DOC-009,7,The potential psychological and familial repercussions of unexpected genetic discoveries remain unpredictable.,needs_review,uncertainty,REV-02,Vague psychological risk wording
+DOC-009,8,Donor waives all proprietary and intellectual property claims arising from genetic derivatization.,needs_review,legalistic,REV-03,Heavy intellectual property waiver
+DOC-009,9,Epigenetic profiling and transcriptomic analyses will be executed pursuant to future biobank directives.,needs_review,complexity,REV-02,Convoluted omics jargon
+DOC-009,10,Taking part in this biobank is optional and does not affect your regular medical care.,clear,plain_language,REV-01,Clear voluntariness
+DOC-010,1,This medicine has not been tested in pregnant women and might harm an unborn baby.,clear,plain_language,REV-01,Clear pregnancy warning
+DOC-010,2,"If you are able to become pregnant, you must use effective birth control while taking this medicine.",clear,plain_language,REV-01,Clear contraception guidance
+DOC-010,3,We will do a routine urine pregnancy test before starting the study medicine.,clear,plain_language,REV-01,Clear pregnancy test procedure
+DOC-010,4,"If you become pregnant during the study, you must notify the study doctor immediately.",clear,plain_language,REV-01,Clear urgent pregnancy reporting
+DOC-010,5,You should not breastfeed your child while you are participating in this trial.,clear,plain_language,REV-01,Clear breastfeeding instruction
+DOC-010,6,"Teratogenic potential, gametotoxic alterations, and embryofetal lethality have not been systematically characterized.",needs_review,jargon,REV-02,Complex embryology jargon
+DOC-010,7,Long-term reproductive sequelae and transgenerational epigenetic impacts remain entirely unknown.,needs_review,uncertainty,REV-02,High uncertainty and jargon
+DOC-010,8,Female subjects must submit to mandatory monthly serum beta-HCG quantitation protocols.,needs_review,complexity,REV-02,Coercive and jargon-laden phrasing
+DOC-010,9,Subject agrees to indemnify investigators from any congenital anomalies occurring post-conception.,needs_review,legalistic,REV-03,Severe legalistic waiver
+DOC-010,10,You can choose other treatments that are known to be safe during pregnancy.,clear,plain_language,REV-01,Clear pregnancy-safe alternatives
+DOC-011,1,This study tests whether a new vaccine helps protect healthy adults against respiratory viruses.,clear,plain_language,REV-01,Clear vaccine aim
+DOC-011,2,You will receive one injection in your upper arm muscle during your first visit.,clear,plain_language,REV-01,Clear intramuscular description
+DOC-011,3,"Common side effects include soreness where you got the shot, mild fever, and muscle aches.",clear,plain_language,REV-01,Clear vaccine side effects
+DOC-011,4,You will record your temperature in a smartphone app for seven days after each injection.,clear,plain_language,REV-01,Clear app diary instructions
+DOC-011,5,You will have three follow-up blood draws over the next year to measure your antibody levels.,clear,plain_language,REV-01,Clear blood draw schedule
+DOC-011,6,"Transient local reactogenicity, lymphadenopathy, and neutralizing seroconversion titers will be assessed.",needs_review,jargon,REV-02,Immunology jargon without explanation
+DOC-011,7,Rare post-vaccination complications of unpredictable incidence such as Guillain-Barré syndrome may occur.,needs_review,uncertainty,REV-02,Alarming uncertain risk disclosure
+DOC-011,8,The volunteer hereby agrees to hold harmless the vaccine manufacturer notwithstanding unanticipated toxicities.,needs_review,legalistic,REV-03,Exculpatory vaccine clause
+DOC-011,9,"Prior to immunization, subjects must verify absence of immunocompromising conditions or concurrent biologics.",needs_review,complexity,REV-02,Convoluted eligibility condition
+DOC-011,10,You may choose not to receive the vaccine and still receive all your routine preventive care.,clear,plain_language,REV-01,Clear alternative assurance
+DOC-012,1,This study evaluates a computerized memory training game for older adults experiencing mild forgetfulness.,clear,plain_language,REV-01,Clear cognitive study goal
+DOC-012,2,"You will play brain training puzzles on a tablet computer for thirty minutes, three days a week.",clear,plain_language,REV-01,Clear daily task
+DOC-012,3,"Some memory puzzles may feel challenging or frustrating at times, but you can take breaks whenever you want.",clear,plain_language,REV-01,Clear emotional risk and coping
+DOC-012,4,Our team will test your memory and attention scores before and after the eight-week program.,clear,plain_language,REV-01,Clear assessment schedule
+DOC-012,5,"You are free to stop participating at any time, and this will not affect your relationship with your clinic.",clear,plain_language,REV-01,Clear voluntary clause
+DOC-012,6,Neuropsychological psychometric batteries may precipitate acute cognitive fatigue and affective exacerbations.,needs_review,jargon,REV-02,Heavy psychiatry/neuro jargon
+DOC-012,7,Longitudinal maintenance of cognitive plasticity following intervention cessation remains entirely speculative.,needs_review,uncertainty,REV-02,Obscure uncertainty wording
+DOC-012,8,Subject agrees that cognitive assessment data may be commercialized without participant remuneration.,needs_review,legalistic,REV-03,Commercialization waiver
+DOC-012,9,Electroencephalographic recording requires scalp abrasion and conductive gel application prior to monitoring.,needs_review,complexity,REV-02,Technical EEG phrasing
+DOC-012,10,A trained staff member will be in the room to assist you if you need help with the computer.,clear,plain_language,REV-01,Reassuring support explanation
+DOC-013,1,"An open-label, multicentre study to evaluate pharmacokinetics, safety and efficacy of zamicastat as adjunctive therapy in pulmonary arterial hypertension.",needs_review,jargon,REV-04,Clinical trial title with dense pharmacology terms
+DOC-013,2,You are being invited to take part in a clinical research study because you have pulmonary arterial hypertension.,clear,plain_language,REV-01,Clear invitation and condition
+DOC-013,3,Pulmonary arterial hypertension means you have high blood pressure in the arteries that carry blood to your lungs.,clear,plain_language,REV-01,Plain language definition of PAH
+DOC-013,4,Clinical studies are necessary to determine whether medications that have not yet been registered are effective and safe.,clear,plain_language,REV-01,Clear clinical trial rationale
+DOC-013,5,This study follows the ethical guidelines of the Declaration of Helsinki and international Good Clinical Practice rules.,clear,plain_language,REV-01,Clear ethical declaration
+DOC-013,6,Zamicastat works by reducing the drive of the sympathetic nervous system to help lower blood vessel tension.,needs_review,jargon,REV-04,Physiological mechanism jargon
+DOC-013,7,"The sympathetic nervous system can increase heart rate, make blood vessels narrower, and raise your blood pressure.",clear,plain_language,REV-01,Plain-language explanation of sympathetic system
+DOC-013,8,Zamicastat is an investigational medication for PAH that will be used as adjunctive therapy with your current medicines.,needs_review,jargon,REV-04,Adjunctive therapy jargon
+DOC-013,9,The word investigational means that zamicastat is still being tested and has not yet been approved for general sale.,clear,plain_language,REV-01,Clear definition of investigational
+DOC-013,10,A total of 386 healthy volunteers received zamicastat in previous clinical studies with acceptable safety.,clear,plain_language,REV-01,Clear prior exposure summary
+DOC-013,11,Researchers want to investigate how your body absorbs zamicastat and how the medicine affects your blood pressure.,clear,plain_language,REV-01,Clear explanation of PK/PD
+DOC-013,12,Serial pharmacokinetics and pharmacodynamics will be evaluated across dose finding cohorts of 50 mg to 200 mg.,needs_review,jargon,REV-04,Dose finding cohort jargon
+DOC-013,13,This study will be conducted in approximately 15 hospitals across nine European countries.,clear,plain_language,REV-01,Clear multicentre description
+DOC-013,14,Your study doctor and hospital will receive financial compensation from the sponsor for conducting this study.,clear,plain_language,REV-01,Clear conflict of interest disclosure
+DOC-013,15,Therapeutic efficacy cannot be guaranteed to date that it will equal other commercial medications.,needs_review,uncertainty,REV-04,Efficacy uncertainty phrasing
+DOC-014,1,A right-heart catheterisation will be performed to measure the pressures in your heart and lungs.,needs_review,jargon,REV-04,Right heart catheterization jargon
+DOC-014,2,"Your doctor will numb your skin with local anesthetic and guide a thin, hollow tube into your pulmonary artery.",clear,plain_language,REV-01,Clear catheter description
+DOC-014,3,The doctor will observe blood flow through your heart chambers and measure pressures inside your lungs.,clear,plain_language,REV-01,Clear diagnostic purpose
+DOC-014,4,"You may feel slight movement sensations as the tube is positioned, but the procedure is usually not painful.",clear,plain_language,REV-01,Reassuring procedural comfort disclosure
+DOC-014,5,Having to lie still on the exam table for the length of the catheterisation may cause mild back discomfort.,clear,plain_language,REV-01,Clear physical positioning expectation
+DOC-014,6,"Serious catheterisation risks include abnormal heart rhythms, cardiac tamponade, air embolism, and pulmonary artery rupture.",needs_review,jargon,REV-04,High-severity cardiovascular risks
+DOC-014,7,Cardiac tamponade is an accumulation of fluid around the heart that impairs normal cardiac pumping capacity.,needs_review,jargon,REV-04,Tamponade medical definition without plain language
+DOC-014,8,"Puncture of the vein may cause serious bleeding, bruising at the catheter site, or partial lung collapse.",clear,plain_language,REV-01,Understandable complication warnings
+DOC-014,9,"Our team will closely monitor your heart rate, oxygen levels, and blood pressure during and after the catheter procedure.",clear,plain_language,REV-01,Clear post-procedural monitoring
+DOC-014,10,"You must contact the doctor immediately if you experience shortness of breath, chest pain, profuse sweating, or fainting.",clear,plain_language,REV-01,Clear emergency warning symptoms
+DOC-014,11,Iatrogenic pulmonary vascular perforation carrying a 0.03 percent fatality risk has been documented.,needs_review,jargon,REV-04,Overly technical risk quantification
+DOC-014,12,Echocardiography and continuous electrocardiograms will be performed at baseline and follow-up visits.,needs_review,jargon,REV-04,Echo and ECG jargon
+DOC-014,13,"An ultrasound will create moving pictures of your heart, and sticky patches on your chest will record your heart rhythm.",clear,plain_language,REV-01,Plain language echo/ECG explanation
+DOC-014,14,You will complete a six-minute walking test to see how far you can comfortably walk.,clear,plain_language,REV-01,Clear functional test description
+DOC-014,15,Invasive hemodynamics remain of uncertain predictive value regarding long-term clinical progression.,needs_review,uncertainty,REV-04,Hemodynamic uncertainty
+DOC-015,1,"Because zamicastat affects dopamine levels, you may experience orthostatic hypotension, involuntary dyskinesia, or syncope.",needs_review,jargon,REV-04,Complex neurological adverse event terms
+DOC-015,2,"You may feel dizzy or faint when standing up quickly, so you should stand up slowly from sitting or lying down.",clear,plain_language,REV-01,Clear practical safety guidance
+DOC-015,3,"Do not drive a car or operate heavy machinery if you feel drowsy, dizzy, or light-headed.",clear,plain_language,REV-01,Clear daily safety precautions
+DOC-015,4,"Common side effects include headache, nausea, mild stomach pain, diarrhea, and feeling tired.",clear,plain_language,REV-01,Clear patient-friendly side effect list
+DOC-015,5,"Reported dermatological reactions include pruritus, hyperhidrosis, erythematous rash, and contact dermatitis.",needs_review,jargon,REV-04,Dermatology jargon
+DOC-015,6,"If you get a skin rash, tell the clinic staff and take photos of the rash using the study smartphone card.",clear,plain_language,REV-01,Clear rash reporting instructions
+DOC-015,7,Concomitant administration of central nervous system depressants or catechol-structured medications may potentiate adverse interactions.,needs_review,jargon,REV-04,Complex pharmacology interaction terms
+DOC-015,8,You must not drink grapefruit juice or eat grapefruits during the study because it can alter drug absorption.,clear,plain_language,REV-01,Clear dietary restriction
+DOC-015,9,"As with any medicine under development, rare or previously unknown side effects that are not yet known may occur.",needs_review,uncertainty,REV-04,Unknown risk boilerplate
+DOC-015,10,"Blood tests will measure creatine phosphokinase, an enzyme that shows whether muscle tissue is irritated.",clear,plain_language,REV-01,Clear explanation of CPK enzyme
+DOC-015,11,An independent Data Monitoring Board will review participant safety data and recommend whether the trial continues.,clear,plain_language,REV-01,Clear DSMB explanation
+DOC-015,12,Subject agrees to assume all inherent toxicological sequelae arising from metabolic enzyme interactions.,needs_review,legalistic,REV-03,Exculpatory assumption of toxicological risk
+DOC-015,13,Your doctor can prescribe medicines to help relieve nausea or headaches if they occur.,clear,plain_language,REV-01,Clear supportive care reassurance
+DOC-015,14,"If intolerable toxicities manifest during dose titration, immediate protocol discontinuation will ensue.",needs_review,complexity,REV-04,Convoluted passive phrasing
+DOC-015,15,"If your side effects become too uncomfortable, your doctor will reduce your dose or stop the study medicine.",clear,plain_language,REV-01,Plain language dose adjustment
+DOC-016,1,Your personal information will be protected in accordance with the European General Data Protection Regulation (GDPR).,clear,plain_language,REV-01,Clear privacy reference
+DOC-016,2,Your data will be stored on secure computer servers using a unique code number instead of your name.,clear,plain_language,REV-01,Clear pseudonymisation explanation
+DOC-016,3,Only authorized research staff and health regulatory inspectors will have permission to review your medical records.,clear,plain_language,REV-01,Clear confidentiality boundary
+DOC-016,4,"Under data protection laws, you have the right to inspect your stored information and request corrections if it is inaccurate.",clear,plain_language,REV-01,Clear GDPR subject rights
+DOC-016,5,You may request the destruction of your stored blood samples at any time if you decide to withdraw from the research.,clear,plain_language,REV-01,Clear sample withdrawal right
+DOC-016,6,We will ask for your separate permission to keep leftover blood plasma samples stored for up to ten years for future research.,clear,plain_language,REV-01,Clear biobank consent option
+DOC-016,7,No genetic testing or DNA cloning analyses will ever be performed on your stored biological samples.,clear,plain_language,REV-01,Clear reassurance against unwanted genetic tests
+DOC-016,8,Transfer of pseudonymised dataset records to third-country cloud servers outside the EEA may be executed without judicial recourse.,needs_review,legalistic,REV-03,Onerous cross-border data clause
+DOC-016,9,"If you are unhappy with how your data is handled, you have the right to file a complaint with the national privacy authority.",clear,plain_language,REV-01,Clear supervisory complaint right
+DOC-016,10,Data collected prior to withdrawal cannot be expunged pursuant to mandatory international regulatory archiving mandates.,needs_review,legalistic,REV-03,Legalistic retention wording
+DOC-016,11,A summary of the clinical study results written in plain language for the public will be published on the official EU database.,clear,plain_language,REV-01,Clear public register disclosure
+DOC-016,12,Participant irrevocably waives all proprietary and patentable interests in biological derivatives and data analytics.,needs_review,legalistic,REV-03,Exculpatory patent waiver
+DOC-016,13,Your general practitioner or family doctor will be informed about your study participation unless you ask us not to.,clear,plain_language,REV-01,Clear GP communication notification
+DOC-016,14,You will be given a signed and dated copy of this 17-page information booklet to keep at home.,clear,plain_language,REV-01,Clear copy provision
+DOC-016,15,"If you ever have questions regarding your legal rights as a research patient, you can call the patient advocacy phone number.",clear,plain_language,REV-01,Clear patient advocate contact
+DOC-017,1,The sponsor has purchased special clinical trial insurance to cover medical care in the unlikely event of study-related injury.,clear,plain_language,REV-01,Clear insurance coverage statement
+DOC-017,2,You must notify the insurance company immediately upon injury occurrence or forfeit all indemnification entitlements.,needs_review,legalistic,REV-03,Coercive insurance forfeiture clause
+DOC-017,3,"If you suffer a physical injury caused by the study medicine, your medical treatments will be paid for without cost to you.",clear,plain_language,REV-01,Clear no-fault injury treatment
+DOC-017,4,"By executing this form, patient hereby releases attending physicians from all statutory obligations of professional medical secrecy.",needs_review,legalistic,REV-03,Severe duty of secrecy release
+DOC-017,5,I release the investigator from his duty of professional secrecy to enable sponsor audit inspection.,needs_review,legalistic,REV-03,Medical secrecy waiver
+DOC-017,6,"You will not have to pay for your study medication, doctor visits, or laboratory tests during this trial.",clear,plain_language,REV-01,Clear financial reassurance
+DOC-017,7,Your travel expenses for clinic visits will be reimbursed up to the standard approved hospital mileage rates.,clear,plain_language,REV-01,Clear travel reimbursement
+DOC-017,8,"If you withdraw before the study finishes, an early discontinuation safety visit will be scheduled within ten days.",clear,plain_language,REV-01,Clear early exit visit explanation
+DOC-017,9,The sponsor or ethics committee may stop the study at any time if they believe it is no longer safe for participants.,clear,plain_language,REV-01,Clear sponsor stopping rule
+DOC-017,10,Failure to maintain strict compliance with scheduled telephone encounters may result in involuntary protocol expulsion.,needs_review,complexity,REV-04,Punitive compliance language
+DOC-017,11,You can choose to leave the study at any time without having to give a reason.,clear,plain_language,REV-01,Clear unconditional withdrawal
+DOC-017,12,Participant agrees to hold harmless the trial site from all consequential damages resulting from protocol deviations.,needs_review,legalistic,REV-03,Hold harmless waiver
+DOC-017,13,Taking part will not affect your relationship with your usual doctors or your future medical choices.,clear,plain_language,REV-01,Clear physician relationship protection
+DOC-017,14,New medical findings that might affect your willingness to stay in the study will be shared with you promptly.,clear,plain_language,REV-01,Clear new findings disclosure
+DOC-017,15,You do not give up any of your legal rights to compensation by agreeing to participate in this study.,clear,plain_language,REV-01,Clear rights preservation clause
+DOC-018,1,"If you decide not to join this trial, alternative approved treatments for PAH include ambrisentan, bosentan, and macitentan.",clear,plain_language,REV-01,Clear oral alternative medicines
+DOC-018,2,"Other effective prescription medicines include sildenafil, tadalafil, selexipag, and inhaled iloprost.",clear,plain_language,REV-01,Clear list of standard care options
+DOC-018,3,"Your doctor will explain how these alternative medicines compare in effectiveness, side effects, and daily routine.",clear,plain_language,REV-01,Clear comparison discussion
+DOC-018,4,You may also choose to continue your current medications without adding any experimental study drug.,clear,plain_language,REV-01,Clear no-change alternative
+DOC-018,5,"At the end of the 21 weeks, your doctor may invite you to participate in an optional long-term extension study.",clear,plain_language,REV-01,Clear extension study invitation
+DOC-018,6,"If you join the extension study, the company will continue providing your study medicine at no cost to you.",clear,plain_language,REV-01,Clear continued access disclosure
+DOC-018,7,"If you choose not to join the extension study, your doctor will gradually decrease your dose over two weeks to safely stop it.",clear,plain_language,REV-01,Clear tapering down-titration
+DOC-018,8,Down-titration protocols mandate sequential decrements to attenuate rebound pulmonary vascular constriction.,needs_review,jargon,REV-04,Heavy rebound vasoconstriction jargon
+DOC-018,9,Our team will telephone you two weeks after your final dose to verify that you are feeling well.,clear,plain_language,REV-01,Clear follow-up check
+DOC-018,10,You can discuss all available treatment choices with your family and your primary care physician before deciding.,clear,plain_language,REV-01,Clear support in decision making
+DOC-018,11,Endothelin receptor antagonists and phosphodiesterase type 5 inhibitors constitute established therapeutic modalities.,needs_review,jargon,REV-04,Pharmacological class jargon
+DOC-018,12,Take as much time as you need to read this information and discuss it with people you trust.,clear,plain_language,REV-01,Clear unpressured deliberation
+DOC-018,13,Your signature on the consent form certifies that your questions were answered and you chose to join freely.,clear,plain_language,REV-01,Clear consent signature description
+DOC-018,14,"If you do not understand the meaning of any medical term in this form, please ask your study nurse to explain it.",clear,plain_language,REV-01,Clear invitation to clarify terms
+DOC-018,15,We thank you for taking the time to read this information and considering participation in our clinical study.,clear,plain_language,REV-01,Warm clear closing gratitude
+DOC-019,1,Patients diagnosed with essential hypertension or secondary pulmonary hypertension will be randomized to active or placebo arms.,needs_review,jargon,REV-04,Hypertension jargon
+DOC-019,2,Hypertension is a medical condition where the pressure of blood against your artery walls is consistently too high.,clear,plain_language,REV-01,Plain definition of hypertension
+DOC-019,3,The relative therapeutic efficacy of the investigational compound will be compared against standard oral vasodilators.,needs_review,jargon,REV-04,Efficacy and vasodilator jargon
+DOC-019,4,We want to see how well this medicine works compared to the pills usually prescribed for your health condition.,clear,plain_language,REV-01,Plain language efficacy
+DOC-019,5,Adjunctive therapy means you will continue taking all your regular medicines and add the study pill once each day.,clear,plain_language,REV-01,Plain language adjunctive
+DOC-019,6,Combination adjunctive pharmacotherapy may elicit unforeseen cardiovascular sequelae and orthostatic lability.,needs_review,jargon,REV-04,Heavy cardiovascular jargon
+DOC-019,7,Your doctor will check your blood pressure when you are lying down and when you stand up to make sure it is safe.,clear,plain_language,REV-01,Plain language blood pressure check
+DOC-019,8,Multicentre trials allow investigators to gather data from diverse patient populations across multiple hospital sites.,clear,plain_language,REV-01,Plain language multicentre
+DOC-019,9,The primary efficacy endpoint is change from baseline in pulmonary vascular resistance after twenty-one weeks.,needs_review,jargon,REV-04,Efficacy endpoint jargon
+DOC-019,10,You have the right to decline participation and choose standard approved medications for your high blood pressure.,clear,plain_language,REV-01,Plain language alternative and autonomy

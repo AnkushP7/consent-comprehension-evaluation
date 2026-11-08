@@ -1,0 +1,2 @@
+document_id,sentence_id,sentence_text,label,annotator_id,notes
+DOC-001,1,"Paste one consent sentence here",needs_review,annotator_1,"Example row only; replace with a real expert annotation before model training"
